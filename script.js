@@ -11,7 +11,7 @@ function removech() {
 }
 function execm() {
     if (tbcal.length == 0 || tbcal == "") {
-        alert("Needs a input");
+        alert("Necesitas colocar digitos");
         return;
     }
     try {
@@ -19,7 +19,7 @@ function execm() {
         compinp.value = ans;
     }
     catch (err) {
-        alert("Invalid Input");
+        alert("Digitos Invalidos");
     }
 }
 function reset() {
